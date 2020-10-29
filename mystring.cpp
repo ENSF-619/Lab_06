@@ -1,8 +1,7 @@
 /*  mystring.cpp
- *
- *
- */
-// ENSF 619 - Lab 1 - Exercise A and B
+// ENSF 619 - Lab 6 - Exercise B
+//Completed by: Ziad Chemali & Lotfi Hasni
+//Submission Date: October 30, 2020*/
 #include "mystring.h"
 #include <string.h>
 #include <iostream>
@@ -132,7 +131,10 @@ Mystring& Mystring::append(const Mystring& other)
 
  char& Mystring::operator[](int n) const
  {
-     return this->charsM[n];
+     if (n >= 0 && n < lengthM)
+         return this->charsM[n];
+
+     
  }
 
  void Mystring::memory_check(char* s)

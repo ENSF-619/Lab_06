@@ -1,6 +1,11 @@
+/*
+ * MyVector.java
+ * ENSF 619-Lab 6- Exercise C&D 
+ * Completed by: Ziad Chemali & Lotfi Hasni
+ * Submission date: October 30, 2020
+ */
 package exercise_C_D;
 
-import java.text.DecimalFormat;
 import java.util.ArrayList;
 
 public class MyVector<E extends Number & Comparable<E>>{
@@ -33,7 +38,6 @@ public class MyVector<E extends Number & Comparable<E>>{
 	}
 	
 	public void display() {
-		//DecimalFormat f = new DecimalFormat(".#");
 		for(Item<E> i: storageM)
 			System.out.print(i.getItem() + " ");
 		System.out.println();

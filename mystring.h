@@ -1,5 +1,7 @@
 /* File: mystring.h */
-// ENSF 619 - Lab 6 - Exercise A and B
+// ENSF 619 - Lab 6 - Exercise B
+//Completed by: Ziad Chemali & Lotfi Hasni
+//Submission Date: October 30, 2020
 #include <iostream>
 #include <string>
 using namespace std;

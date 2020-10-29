@@ -140,7 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\dictionaryList.cpp" />
-    <ClCompile Include="..\..\exAmain.cpp" />
+    <ClCompile Include="..\..\exBmain.cpp" />
     <ClCompile Include="..\..\mystring.cpp" />
   </ItemGroup>
   <ItemGroup>

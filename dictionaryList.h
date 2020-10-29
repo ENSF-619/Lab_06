@@ -1,5 +1,7 @@
 // dictionaryList.h
-// ENSF 619 - Lab 6 - Exercise A & B
+// ENSF 619 - Lab 6 - Exercise B
+//Completed by: Ziad Chemali & Lotfi Hasni
+//Submission Date: October 30, 2020
 
 #ifndef DICTIONARY_H
 #define DICTIONARY_H

@@ -1,8 +1,7 @@
-// lookuptable.cpp
-
-// ENSF 619 - Lab 6 - Exercise A & B
- 
-// Completed by:
+// dictionaryList.cpp
+// ENSF 619 - Lab 6 - Exercise B
+//Completed by: Ziad Chemali & Lotfi Hasni
+//Submission Date: October 30, 2020
 
 #include <assert.h>
 #include <iostream>
@@ -161,7 +160,7 @@ void DictionaryList::make_empty()
 
 const Mystring& DictionaryList::operator[](int i)
 {
-    assert(this->sizeM >= i);
+    assert(this->sizeM > i);
     Node* p = headM;
     int count = 0;
     while (p != 0)

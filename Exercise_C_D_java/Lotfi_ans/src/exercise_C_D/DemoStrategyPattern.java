@@ -1,8 +1,10 @@
-package exercise_C_D;
-
-/* ENSF 619 - Lab 6 - Exercise C and D - Generic
- * M. Moussavi, October 2020
+/*
+ * DemoStrategyPattern.java
+ * ENSF 619-Lab 6- Exercise C&D 
+ * Completed by: Ziad Chemali & Lotfi Hasni
+ * Submission date: October 30, 2020
  */
+package exercise_C_D;
 
 import java.util.Random;
 public class DemoStrategyPattern {
@@ -38,7 +40,7 @@ public class DemoStrategyPattern {
 		
 		// populate v2 with 5 randomly generated numbers
 		for(int i = 4; i >=0; i--) {
-			Item<Integer> item;																			//WAS DOUBLE
+			Item<Integer> item;																			
 			item = new Item<Integer> (Integer.valueOf(rand.nextInt(50)));
 			v2.add(item);
 			}
